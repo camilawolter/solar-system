@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('images/background.png');
+}
+
+h1 {
+  color: white;
+  font-family: Tahoma , Verdana , sans-serif;
+  font-size: 55px;
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-family: Impact , sans-serif;
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+p {
+  color: white;
+  font-family: Impact , sans-serif;
+}
+
+.solarSystemContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.planetDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+}
+
+.planetDiv div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  width: fit-content;
+}
+
+.planetDiv div img {
+  transition: 0.5s all ease-in-out;
+}
+
+.planetDiv div img:hover {
+  filter: brightness(130%);
+  transform: scale(1.2);
+}
+
+.Mercúrio {
+  width: 60px;
+}
+
+.Vênus {
+  width: 160px;
+}
+
+.Terra {
+  width: 180px;
+}
+
+.Marte {
+  width: 110px;
+}
+
+.Júpiter {
+  width: 350px;
+}
+
+.Saturno {
+  width: 280px;
+}
+
+.Urano {
+  width: 200px;
+}
+
+.Netuno {
+  width: 200px;
+}
+
+.planetsNames {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.missions {
+  width: 100%;
+}
+
+.missionsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.missionCard {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  flex-grow: 1;
+  margin: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.missionCard:hover {
+  background-color: rgba(39, 41, 41, 0.473);
+  transform: scale(1.1);
+}
+
+.missionCard header p {
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
