@@ -4,7 +4,7 @@ Projeto entregue durante o curso de desenvolvimento Web ministrado pela Trybe.
 
 Descrição:
 
-O projeto tinha como objetivo desenvolver uma aplicação em React com criação de componentes de classe e passagem de props. Essa aplicação simulará uma visualização do Sistema Solar, bem como informações sobre diversas missões espacias que ocorreram ao longo da história.
+O projeto teve como objetivo desenvolver uma aplicação em React com criação de componentes de classe e passagem de props. 
 
 Habilidades desenvolvidas
 
@@ -16,4 +16,3 @@ Habilidades desenvolvidas
 - Fazer uso de props corretamente;
 - Fazer uso de PropTypes para validar as props de um componente.
 
-Link para Acesso: https://camilawolter.github.io/solar-system/
