@@ -15,4 +15,5 @@ Habilidades desenvolvidas
 - Criar múltiplos componentes a partir de um array;
 - Fazer uso de props corretamente;
 - Fazer uso de PropTypes para validar as props de um componente.
+- Fazer toda estilização pegando como exemplo o modelo apresentado no Figma.
 
