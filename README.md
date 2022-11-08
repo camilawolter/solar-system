@@ -17,3 +17,6 @@ Habilidades desenvolvidas
 - Fazer uso de PropTypes para validar as props de um componente.
 - Fazer toda estilização pegando como exemplo o modelo apresentado no Figma.
 
+Para fazer as instalações: npm install
+
+Para acessar a aplicação em funcionamento: https://projeto-solar-system-sage.vercel.app/
